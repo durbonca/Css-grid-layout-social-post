@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px; 
+    height: 500px;
+    display: grid;
+    grid-template-columns: 62% 38%;
+    border-color: red;
+}
+.item{
+    background: gray;
+    border: 1px solid red;
+    display: grid;
+    grid-template-rows: 62% 38%;
+}
+.item2{
+    display: grid;
+    grid-template-columns: 62% 38%;
+    border-color: red;
+    overflow: visible;
+}
