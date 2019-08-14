@@ -19,6 +19,10 @@ body {
     justify-items: center;
 }
 
+.title img {
+    width: 25%;
+}
+
 .post {
     cursor: pointer;
     position: relative;
